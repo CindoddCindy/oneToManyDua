@@ -14,7 +14,7 @@ public class Comment extends AuditModel  {
     private Long id;
 
     @NotNull
-    @Lob
+   // @Lob
     private String text;
 
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
